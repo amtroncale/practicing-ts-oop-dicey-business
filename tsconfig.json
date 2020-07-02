@@ -1,0 +1,10 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "strict": true,
+        "target":"ESNext",
+        "reactNamespace": "proxy",
+        "moduleResolution": "Node"
+    },
+    "include": ["*.ts"]
+}
