@@ -26,5 +26,5 @@ $('#reroll-die').click(() => diceArray.forEach(die => die.roll()));
 $('#sum-dice').click(() => {
     let sum = 0;
     diceArray.forEach(die => (sum += die.randomVal));
-    alert(`Total sum of the die is: ${sum}`);
+    alert(`Total sum of the dice is: ${sum}`);
 });
